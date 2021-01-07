@@ -55,6 +55,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(new LatLng(15.965313, 120.535391)).title("Location 2- Abygail's House"));
         mMap.addMarker(new MarkerOptions().position(new LatLng(15.992174, 120.537569)).title("Location 3- Ma Crister's House"));
 
+        mMap.addMarker(new MarkerOptions().position(new LatLng(15.974769357394289, 120.58108803535114)).title("Mary Kane's Secondary School"));
+        mMap.addMarker(new MarkerOptions().position(new LatLng(15.9787, 120.5632)).title("Abygail & Ma Crister's Secondary School"));
+
         mMap.addPolyline(new
                 PolylineOptions()
                 .add(new LatLng(15.98093, 120.56054),
